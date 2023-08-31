@@ -1,0 +1,28 @@
+.slider{
+    margin-left: 117px;
+     &_Img{
+        width: 262px;
+        height: 330px;
+        border-radius: 20px;
+        object-fit: cover;
+        margin-bottom: 1.75rem;
+        margin-top: 1rem;
+    }
+    &_title{
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+    &_Price{
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #145855;
+        padding-bottom:5rem;
+    }
+
+}
+.mySwiper{
+    border-radius: 0 0 40px 40px;
+    background-color: aquamarine;
+    margin-bottom:5rem;
+}

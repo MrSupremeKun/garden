@@ -1,0 +1,152 @@
+.Header{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top:170px;
+     margin-bottom: 150px;
+     &_Img{
+        width: 1200px;
+        border: .5px solid green;
+        border-radius: 20px;
+        z-index: -2;
+     }
+    }
+
+.Intro{
+    width: 580px;
+    height: 340px;
+    border-radius:20px;
+    padding: 10px;
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 2;
+       &_Article{
+           width: 278px;
+           font-weight: 600;
+           font-size: 14px;
+           letter-spacing:3px;
+           margin-bottom: 30px;
+       }
+       &_Text{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 75px;
+        color: #282A30;
+        text-align: center;
+        span{
+            color: #145855;
+        }
+       }
+       &_Watch{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        &_Button{
+            width: 180px;
+            height: 55px;
+            border-radius: 40px;
+            border: 1px solid blue;
+            color: #145855;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        &_Text{
+            width: 172px;
+            height: 40px;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+            color: #282A30;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            svg{
+                width: 40px;
+                height: 40px;
+                color: #145855;
+            }
+        }
+       }
+    }
+.Importance{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        column-gap:30px;
+        margin-bottom: 200px;
+        img{
+            width: 700px;
+            height: 800px;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+    }
+
+    .Importance_Div{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 10px;
+        &_Article{
+            width: 550px;
+            height: auto;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 75px;
+            color: #000000;
+            text-align:left;
+            span{
+                color: #145855;
+            }
+        }
+        &_Text{
+            width: 619px;
+            height: 78px;
+            font-size: 16px;
+            line-height: 40px;
+            font-weight: 400;
+            color: #000000;
+            margin-top:100px;
+        }
+        &_Button{
+            width: 180px;
+            height: 54px;
+            color: #145855;
+            border: 1px solid #145855;
+            border-radius:40px;
+            margin-top: 78px;
+        }
+    }
+    .carousel{
+        border-radius: 40px 40px 0 0;
+        background-color: aquamarine;
+        padding: 20px;
+        margin-bottom: -30px;
+        article{
+            width: 32rem;
+            color: #145855;
+            font-size: 3.25rem;
+            font-weight: 400;
+            text-align-last: left;
+            margin-bottom: 3.25rem;
+        }
+        p{
+            font-size: 1.25rem;
+            font-weight: 500;
+            color: black;
+            margin-bottom: 1.75rem;
+            position: relative;
+           }
+    }
+    .Link{
+        text-align: center;
+        margin-left: 800px;
+        font-size: 28px;
+        border-bottom: 1px solid black;
+    }
+    .inputhtml{
+        margin: 200px 0 200px 0;
+
+    }
